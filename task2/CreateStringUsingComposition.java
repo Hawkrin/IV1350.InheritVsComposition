@@ -2,6 +2,9 @@ package task2;
 
 import java.util.List;
 
+/**
+ * A class that creates strings
+ */
 public class CreateStringUsingComposition {
     private Builder builder = new Builder();
     
