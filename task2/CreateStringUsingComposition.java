@@ -6,7 +6,7 @@ public class CreateStringUsingComposition {
     private Builder builder = new Builder();
     
     public String listToString(List<String> newList) {
-        return listToString(newList);
+        return builder.listToString(newList);
     }
 
     public void appendNewRow(StringBuilder sb) {
