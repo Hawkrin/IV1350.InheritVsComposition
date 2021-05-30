@@ -7,6 +7,7 @@ public class Main {
     List<String> listExample = Arrays.asList("dog", "cat", "bird", "human", "lizard");
     CreateStringUsingInheritance inheritance = new CreateStringUsingInheritance();
     CreateStringUsingComposition composition = new CreateStringUsingComposition();
+    
     public static void main(String[] args) {
         Main mainObject = new Main();
 
@@ -40,10 +41,10 @@ public class Main {
         composition.appendSpace(sb);
         composition.appendLine(sb, "Test3");
         composition.appendNewRow(sb);
-        composition.appendLine(sb, "The size of this string is: " + inheritance.sizeOfString(sb));
+        composition.appendLine(sb, "The size of this string is: " + composition.sizeOfString(sb));
         composition.appendNewRow(sb);
         composition.appendLine(sb, "END");
-        composition.printOutString(sb);  
+        composition.printOutString(sb);
     }
     
 }
