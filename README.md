@@ -1,3 +1,5 @@
 My solution to the following task:
 
-https://puu.sh/HKVM1/8c68c37ff6.png 
+
+![Image of Yaktocat](https://github.com/Hawkrin/IV1350.InheritVsComposition/blob/master/picture/inheritancevscomposition.png)
+
