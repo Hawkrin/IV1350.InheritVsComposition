@@ -3,6 +3,9 @@ package task2;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Contains the <code>main</code> method. Performs all startup of the application.
+ */
 public class Main {
     List<String> listExample = Arrays.asList("dog", "cat", "bird", "human", "lizard");
     CreateStringUsingInheritance inheritance = new CreateStringUsingInheritance();
@@ -15,6 +18,9 @@ public class Main {
         mainObject.compositionExample(); 
     }
 
+    /**
+     * Creates and prints out a string.
+     */
     public void inheritanceExample() {
         System.out.println(inheritance.listToString(listExample));
 
@@ -30,7 +36,10 @@ public class Main {
         inheritance.appendLine(sb, "END");
         inheritance.printOutString(sb);  
     }
-
+    
+    /**
+     * Creates and prints out a string.
+     */
     public void compositionExample() {
         System.out.println(composition.listToString(listExample));
 
