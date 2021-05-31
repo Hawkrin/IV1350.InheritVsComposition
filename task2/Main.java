@@ -19,7 +19,7 @@ public class Main {
     }
 
     /**
-     * Creates and prints out a string.
+     * Creates and prints out a string via inheritance.
      */
     public void inheritanceExample() {
         System.out.println(inheritance.listToString(listExample));
@@ -38,7 +38,7 @@ public class Main {
     }
     
     /**
-     * Creates and prints out a string.
+     * Creates and prints out a string via composition.
      */
     public void compositionExample() {
         System.out.println(composition.listToString(listExample));
