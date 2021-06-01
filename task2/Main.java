@@ -8,8 +8,6 @@ import java.util.List;
  */
 public class Main {
     List<String> listExample = Arrays.asList("dog", "cat", "bird", "human", "lizard");
-    CreateStringUsingInheritance inheritance = new CreateStringUsingInheritance();
-    CreateStringUsingComposition composition = new CreateStringUsingComposition();
     
     public static void main(String[] args) {
         Main mainObject = new Main();
@@ -22,6 +20,7 @@ public class Main {
      * Creates and prints out a string via inheritance.
      */
     public void inheritanceExample() {
+        CreateStringUsingInheritance inheritance = new CreateStringUsingInheritance();
         System.out.println(inheritance.listToString(listExample));
 
         StringBuilder sb = new StringBuilder();
@@ -41,6 +40,7 @@ public class Main {
      * Creates and prints out a string via composition.
      */
     public void compositionExample() {
+        CreateStringUsingComposition composition = new CreateStringUsingComposition();
         System.out.println(composition.listToString(listExample));
 
         StringBuilder sb = new StringBuilder();
