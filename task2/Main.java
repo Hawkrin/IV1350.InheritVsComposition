@@ -13,6 +13,7 @@ public class Main {
         Main mainObject = new Main();
 
         mainObject.inheritanceExample();
+        System.out.println("\n");
         mainObject.compositionExample(); 
     }
 
