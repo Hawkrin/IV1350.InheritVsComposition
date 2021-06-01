@@ -3,7 +3,7 @@ package task2;
 import java.util.List;
 
 /**
- * Represents a string
+ * Represents a StringBuilder
  */
 public class Builder {
     
